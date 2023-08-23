@@ -1,0 +1,14 @@
+#parent {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px;
+  height: 500px;
+  width: 250px;
+  text-align: center;
+}
+#imga {
+  height: 400px;
+  width: 240px;
+}
+h5 {
+  opacity: 0.4;
+}

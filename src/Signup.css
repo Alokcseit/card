@@ -1,0 +1,36 @@
+.container1 {
+  height: 100px;
+  width: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  background-color: rgb(115, 212, 221);
+  text-align: center;
+}
+.button1 {
+  grid-column: 1/2;
+  font-size: 30px;
+  width: 50px;
+  height: 40px;
+  border-radius: 4px;
+}
+.button2 {
+  grid-column: 3/4;
+  font-size: 30px;
+  width: 50px;
+  height: 40px;
+  border-radius: 4px;
+}
+.button3 {
+  grid-column: 4/5;
+  font-size: 30px;
+  width: 50px;
+  height: 40px;
+  border-radius: 4px;
+}
+.container2 {
+  grid-column: 2/3;
+}
+.bd {
+  background-color: black;
+  color: #ffff;
+}
